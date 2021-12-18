@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background: rgb(248, 255, 190);
+}
+.container {
+	margin-left: 10%;
+	width: 1200px;
+	height: 2100px;
+	margin-top: 3%;
+}
+.img {
+	width: 500px;
+	height: 275px;
+	border-radius: 60px;
+	margin: 50px 30px;
+	cursor: pointer;
+	transform: translateY(10px);
+	transition: all .3s linear;
+}
+img:hover {
+	width: 575px;
+	height: 340px;
+}
+.logo {
+	font-size: 45px;
+	background: linear-gradient(10deg,#FF0000, #FF9212, #FFD645);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
